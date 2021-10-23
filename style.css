@@ -1,0 +1,17 @@
+body{
+  background-color: #33383e;
+}
+.shadow{
+  width: 400px;
+  height: 400px;
+  margin: 7% auto;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #fff,-30px 0 95px #e91e63,30px 0 95px #4605ff,inset 0 0 60px #fff,inset 60px 0 95px #e91e63,inset -60px 0 95px #4605ff,inset 60px 0 400px #e91e63,inset -60px 0 400px #4605ff;
+  animation: pulse 20s linear infinite;
+}
+@keyframes pulse {50%{
+
+  box-shadow: 0 0 30px #fff,30px 0 95px #e91e63,-30px 0 95px #4605ff,inset 0 0 60px #fff,inset -60px 0 95px #e91e63,inset 60px 0 95px #4605ff,inset -60px 0 400px #e91e63,inset 60px 0 400px #4605ff;
+}
+
+}
